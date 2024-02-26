@@ -1,0 +1,23 @@
+body {
+  background-color: white; /* original */
+}
+
+body.dark-background { /* this should be ".body.dark-backgroud" not ".body dark-backgroung" */
+  background-color: rgb(29, 29, 29); /* changes the original body value  or add you can add if you want */
+}
+
+
+h1.dark-background { /*  i just changed the default color black to white */
+  color: white;
+} 
+
+
+.toggleBTN { /*  original */
+  padding: 8px 16px;
+}
+
+
+.toggleBTN.dark-background { /*  i used the "dark-bacground" hero too to change too when clicked*/
+  color: rgb(0, 0, 0); /* like here i just added new properties and values the value padding is still there*/
+  background-color: rgb(255, 255, 255);
+}
