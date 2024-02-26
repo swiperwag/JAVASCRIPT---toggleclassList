@@ -2,7 +2,7 @@ body {
   background-color: white; /* original */
 }
 
-body.dark-background { /* this should be ".body.dark-backgroud" not ".body dark-backgroung" */
+body.dark-background { /* this should be ".body.dark-backgroud" not ".body dark-background" */
   background-color: rgb(29, 29, 29); /* changes the original body value  or add you can add if you want */
 }
 
